@@ -1,5 +1,5 @@
 # Setup Kotlin Toolchain
-Setup [Kotlin Toolchain](https://kotlin-toolchain.org) with caching.
+Set up [Kotlin Toolchain](https://kotlin-toolchain.org) (formerly Amper) with caching for dependencies and provisioned JDKs.
 
 > [!NOTE]
 > This is a community-maintained GitHub Action, not affiliated with JetBrains.
@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
-      - name: Setup Kotlin Toolchain
+      - name: Set up Kotlin Toolchain
         uses: RazerTexz/setup-kotlin-toolchain@v1
 
       - name: Build
