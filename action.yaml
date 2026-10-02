@@ -1,0 +1,30 @@
+name: Setup Kotlin Toolchain
+description: Setup Kotlin Toolchain with caching
+author: RazerTexz
+branding:
+  icon: terminal
+  color: purple
+
+runs:
+  using: composite
+  steps:
+    - name: Cache
+      uses: actions/cache@v6
+      with:
+        key: ${{ runner.os }}-kotlin-toolchain-${{ hashFiles('kotlin', 'kotlin.bat', '**/module.yaml', '**/project.yaml') }}
+        path: |
+          ~/.cache/JetBrains/Kotlin/
+          ~/AppData/Local/JetBrains/Kotlin/
+          ~/Library/Caches/JetBrains/Kotlin/
+        restore-keys: ${{ runner.os }}-kotlin-toolchain-
+
+    - name: Install
+      shell: bash
+      run: |
+        if [[ "${{ runner.os }}" == "Windows" ]]; then
+          powershell -ep Bypass -c "irm https://kotl.in/install.ps1 | iex"
+        else
+          curl -fsSL https://kotl.in/install.sh | sh
+        fi
+
+        printf "%s\n" "$HOME/.local/bin" >> "$GITHUB_PATH"
