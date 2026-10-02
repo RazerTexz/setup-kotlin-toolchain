@@ -1,5 +1,5 @@
 # Setup Kotlin Toolchain
-Setup [Kotlin Toolchain](https://kotlin-toolchain.org/latest/) with caching.
+Setup [Kotlin Toolchain](https://kotlin-toolchain.org) with caching.
 
 > [!NOTE]
 > This is a community-maintained GitHub Action, not affiliated with JetBrains.
@@ -7,7 +7,7 @@ Setup [Kotlin Toolchain](https://kotlin-toolchain.org/latest/) with caching.
 ## Usage
 ```yaml
 name: Build
-on: [push, pull_request, workflow_dispatch]
+on: [push, pull_request]
 
 jobs:
   build:
