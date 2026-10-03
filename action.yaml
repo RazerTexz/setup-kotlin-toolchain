@@ -1,5 +1,5 @@
 name: Setup Kotlin Toolchain
-description: Set up JetBrains Kotlin Toolchain (Amper) with caching for dependencies and JDKs
+description: Set up JetBrains Kotlin Toolchain (Amper) with caching for the Kotlin Toolchain, JDKs, and dependencies
 author: RazerTexz
 branding:
   icon: terminal
