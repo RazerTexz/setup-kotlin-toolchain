@@ -1,0 +1,12 @@
+name: Test
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Kotlin Toolchain
+        uses: RazerTexz/setup-kotlin-toolchain@v1
+
+      - name: Test
+        run: kotlin --version
