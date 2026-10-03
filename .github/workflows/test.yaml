@@ -5,8 +5,11 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
       - name: Set up Kotlin Toolchain
-        uses: RazerTexz/setup-kotlin-toolchain@v1
+        uses: ./
 
       - name: Test
         run: kotlin --version
