@@ -1,10 +1,11 @@
 # Setup Kotlin Toolchain
+![Tests](https://img.shields.io/github/actions/workflow/status/RazerTexz/setup-kotlin-toolchain/test.yaml?style=for-the-badge&label=Tests)
+![License](https://img.shields.io/github/license/RazerTexz/setup-kotlin-toolchain?style=for-the-badge)
+
 Set up [Kotlin Toolchain](https://kotlin-toolchain.org) (formerly Amper) with caching for dependencies and provisioned JDKs.
 
 > [!NOTE]
 > This is a community-maintained GitHub Action, not affiliated with JetBrains.
-
-![GitHub License](https://img.shields.io/github/license/RazerTexz/setup-kotlin-toolchain?style=for-the-badge)
 
 ## Usage
 ```yaml
