@@ -15,7 +15,7 @@ runs:
           ~/.cache/JetBrains/Kotlin
           ~/Library/Caches/JetBrains/Kotlin
           ~/AppData/Local/JetBrains/Kotlin
-        key: ${{ runner.os }}-kotlin-toolchain-${{ hashFiles('kotlin', 'kotlin.bat', 'amper', 'amper.bat', '**/project.yaml', '**/module.yaml', '**/*.module-template.yaml', '**/libs.versions.toml') }}
+        key: ${{ runner.os }}-kotlin-toolchain-${{ hashFiles('**/kotlin{,.bat}', '**/amper{,.bat}', '**/project.{yaml,yml}', '**/module.{yaml,yml}', '**/*.module-template.{yaml,yml}', '**/libs.versions.toml') }}
         restore-keys: ${{ runner.os }}-kotlin-toolchain-
 
     - name: Install
