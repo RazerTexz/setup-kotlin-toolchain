@@ -1,7 +1,7 @@
 # Setup Kotlin Toolchain
 [![Tests](https://img.shields.io/github/actions/workflow/status/RazerTexz/setup-kotlin-toolchain/test.yaml?style=for-the-badge&label=tests)](https://github.com/RazerTexz/setup-kotlin-toolchain/actions)
 [![License](https://img.shields.io/github/license/RazerTexz/setup-kotlin-toolchain?style=for-the-badge)](LICENSE)
-[![Android Weekly](https://img.shields.io/badge/android%20weekly-issue%20%23474-33b5e5?style=for-the-badge)](https://androidweekly.net/issues/issue-747)
+[![Android Weekly](https://img.shields.io/badge/android%20weekly-issue%20%23747-33b5e5?style=for-the-badge)](https://androidweekly.net/issues/issue-747)
 [![Reddit](https://img.shields.io/badge/reddit-r%2Fkotlintoolchain-7f52ff?style=for-the-badge&logo=reddit&logoColor=white)](https://reddit.com/r/KotlinToolchain)
 
 Set up [Kotlin Toolchain](https://kotlin-toolchain.org) (formerly Amper) with cross-platform caching for the toolchain, JDKs, and dependencies.
