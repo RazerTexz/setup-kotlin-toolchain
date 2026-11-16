@@ -2,6 +2,7 @@
 [![Tests](https://img.shields.io/github/actions/workflow/status/RazerTexz/setup-kotlin-toolchain/test.yaml?style=for-the-badge&label=tests)](https://github.com/RazerTexz/setup-kotlin-toolchain/actions)
 [![License](https://img.shields.io/github/license/RazerTexz/setup-kotlin-toolchain?style=for-the-badge)](LICENSE)
 [![Android Weekly](https://img.shields.io/badge/android%20weekly-issue%20%23747-33b5e5?style=for-the-badge)](https://androidweekly.net/issues/issue-747)
+[![Kotlin Weekly](https://img.shields.io/badge/kotlin%20weekly-issue%20%23532-6e4aa6?style=for-the-badge)](https://mailchi.mp/kotlinweekly/kotlin-weekly-532)
 
 Set up [Kotlin Toolchain](https://kotlin-toolchain.org) (formerly Amper) with cross-platform caching for the toolchain, JDKs, and dependencies.
 
