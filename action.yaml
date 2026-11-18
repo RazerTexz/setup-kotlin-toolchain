@@ -9,7 +9,7 @@ runs:
   using: composite
   steps:
     - name: Cache
-      uses: actions/cache@v6
+      uses: actions/cache@v6.1.0
       with:
         path: |
           ~/.cache/JetBrains/Kotlin
